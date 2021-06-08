@@ -31,7 +31,7 @@ void setup() {
       HTTPClient http;
 
       // Your Domain name with URL path or IP address with path
-      http.begin("https://free.currconv.com/api/v7/convert?q=USD_TRY&compact=ultra&apiKey=786111d575f7c9118d4c");
+      http.begin("https://free.currconv.com/api/v7/convert?q=USD_TRY&compact=ultra&apiKey=......................................................");
       int httpCode = http.GET();
 
       if (httpCode > 0) {
